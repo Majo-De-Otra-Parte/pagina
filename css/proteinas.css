@@ -1,0 +1,210 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+ font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+}
+nav ul{
+  list-style: none;
+  display: flex; /*flex es solo normal, el otro coloca un margen arriba y abajo*/
+  justify-content: center;
+  margin: 12px 12px 12px 12px;
+  padding: 10px 10px 10px 10px;
+  color: pink;
+}
+
+header {
+  background-color: #9B2915 ;
+
+}
+
+
+header div nav ul li a{
+  display: flex;
+  color:white;
+  text-decoration: none;
+  padding: 12px 12px 12px 12px;
+  margin: 0px;
+
+}
+
+.nave ul li:hover{
+background-color: black;
+}
+
+footer{
+  color: white;
+   text-align: left;
+}
+
+main section h2 {
+  background-color:#9B2915 ;
+}
+
+.lista-productos{
+display: flex;
+}
+
+nav ul{
+  list-style: none;
+  display: flex; /*flex es solo normal, el otro coloca un margen arriba y abajo*/
+  justify-content: center;
+  color: whitesmoke;
+  margin: 12px 12px 12px 12px;
+  padding: 10px 10px 10px 10px;
+  background-color: #7B1B0A;
+}
+
+
+.pie ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around; /* Alinea las imágenes horizontalmente */
+}
+
+.pie ul li {
+  text-align: center;
+}
+
+.pie ul li img {
+  width: 240px; /* Establece el ancho deseado para las imágenes */
+  display: block; /* Elimina el espacio adicional debajo de las imágenes */
+}
+
+
+.links-pie-de-pagina ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center; /* Centra el texto */
+}
+
+.links-pie-de-pagina ul li a {
+  color: white; /* Cambia el color de las letras a blanco */
+  text-decoration: none; /* Elimina el subrayado */
+  font-size: 20px; /* Ajusta el tamaño del texto a 20px o al tamaño deseado */
+}
+
+/* Aumentar el tamaño de la imagen al pasar el cursor sobre ella */
+img {
+  transition: transform 0.3s; /* Agrega una transición suave al cambio de tamaño */
+}
+
+img:hover {
+  transform: scale(1.1); /* Aumenta el tamaño de la imagen al 110% al pasar el cursor sobre ella */
+}
+
+/* Encerrar cada producto en un cuadro con su texto */
+.productos {
+  border: 1px solid #ccc; /* Añade un borde de 1px sólido con color gris claro */
+  padding: 10px; /* Añade relleno alrededor del producto para separarlo del borde */
+  margin: 10px; /* Añade margen para separar los productos entre sí */
+  transition: border-color 0.3s; /* Agrega una transición suave al cambio de color del borde */
+}
+
+/* Mostrar un borde de luz al pasar el cursor sobre el cuadro */
+.productos:hover {
+  border-color: #f2f2f2; /* Cambia el color del borde al pasar el cursor sobre el cuadro */
+}
+
+
+/* Aumentar el tamaño de la imagen al pasar el cursor sobre ella */
+.lista-productos img {
+  transition: transform 0.3s; /* Agrega una transición suave al cambio de tamaño */
+}
+
+.lista-productos img:hover {
+  transform: scale(1.1); /* Aumenta el tamaño de la imagen al 110% al pasar el cursor sobre ella */
+}
+
+/* Encerrar cada lista de productos en un cuadro con su texto */
+.lista-productos > div {
+  border: 1px solid #ccc; /* Añade un borde de 1px sólido con color gris claro */
+  padding: 10px; /* Añade relleno alrededor de la lista de productos para separarla del borde */
+  margin: 10px; /* Añade margen para separar las listas de productos entre sí */
+  transition: border-color 0.3s; /* Agrega una transición suave al cambio de color del borde */
+}
+
+/* Mostrar un borde de luz al pasar el cursor sobre la lista de productos */
+.lista-productos > div:hover {
+  border-color: #f2f2f2; /* Cambia el color del borde al pasar el cursor sobre la lista de productos */
+}
+
+ 
+.YUPI img{
+position:absolute;
+top: 5%;
+left: 5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+.container {
+  position: absolute;
+  left: 85%;
+  top: 15%;
+  transform: translate(-50%,-50%);
+  padding: 10px;
+}
+
+input {
+  outline: none;
+  box-sizing: border-box;
+  height: 60px;
+  width: 0px;
+  padding: 0 20px;
+  color: #000;
+  border-radius: 50px;
+  font-size: 20px;
+  border: 1px solid #D50000;
+  transition: all .7s ease;
+}
+
+::placeholder {
+  color: grey;
+}
+
+.btn {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 80px;
+  height: 80px;
+  background: #D50000;
+  line-height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.btn i {
+  font-size: 25px;
+  color: white;
+  line-height: 80px;
+  transition: all .7s ease;
+}
+
+.container:hover input {
+  width: 350px;
+}
+
+.container:hover i{
+  transform: rotate(-360deg);
+}
+
+.btn:hover{
+  background: #cc0000;
+ 
+
+
+
